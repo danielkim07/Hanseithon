@@ -79,7 +79,7 @@ public class FishDish : MonoBehaviour
             KeyClick();
             KeyClick();
         } */
-        if (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.L) || Input.GetKeyDown(KeyCode.Semicolon))
         {
             KeyClick();
         }

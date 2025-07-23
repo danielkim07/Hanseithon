@@ -1210,6 +1210,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42e91fd148045d344ae7b994e279925d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thisScore: {fileID: 2004952452}
+  highScore: {fileID: 1858956574}
+  gameManager: {fileID: 1793195494}
 --- !u!1 &1343214631
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,7 +1960,7 @@ MonoBehaviour:
   cleanDishCount: -1
   countText: {fileID: 1438498606}
   timerText: {fileID: 1324316866}
-  scoreBoard: {fileID: 0}
+  scoreBoard: {fileID: 1334216327}
 --- !u!4 &1793195495
 Transform:
   m_ObjectHideFlags: 0
