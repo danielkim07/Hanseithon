@@ -9,6 +9,7 @@ public class FishDish : MonoBehaviour
     public Sprite[] images;
     private int currentIndex = 0;
     private bool leave = false;
+    public GameManager gameManager;
 
     private void Update()
     {
@@ -19,7 +20,10 @@ public class FishDish : MonoBehaviour
 
     private void OnEnable()
     {
-        transform.position = new Vector2(0, 0);
+        if (gameManager == null)
+        {
+            gameManager = FindObjectOfType<GameManager>();
+        }
     }
 
     private void FixedUpdate()
@@ -32,9 +36,10 @@ public class FishDish : MonoBehaviour
 
     private void Leave()
     {
-        transform.position = new Vector2 (transform.position.x - 100, transform.position.y);
+        transform.position = new Vector2 (transform.position.x - 500, transform.position.y);
         if (transform.position.x <= -2000) {
-            gameObject.SetActive(false);
+            Destroy(gameObject);
+            gameManager.NextDish();
         }
     }
 
@@ -52,8 +57,10 @@ public class FishDish : MonoBehaviour
         {
             if (currentIndex == images.Length - 1)
             {
+                
                 leftHand.sprite = images[currentIndex];
                 leave = true;
+                
             }
         }
     }
