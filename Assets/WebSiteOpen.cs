@@ -1,16 +1,10 @@
+using System;
 using UnityEngine;
 
 public class WebSiteOpen : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void WebSiteURLOpen()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Application.OpenURL("https://hansei.sen.hs.kr/index.do");
     }
 }

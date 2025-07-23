@@ -17,6 +17,11 @@ public class FishDish : MonoBehaviour
         
     }
 
+    private void OnEnable()
+    {
+        transform.position = new Vector2(0, 0);
+    }
+
     private void FixedUpdate()
     {
         if (leave)
@@ -29,7 +34,7 @@ public class FishDish : MonoBehaviour
     {
         transform.position = new Vector2 (transform.position.x - 100, transform.position.y);
         if (transform.position.x <= -2000) {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 

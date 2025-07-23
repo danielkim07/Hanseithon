@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7416750738496021778
+--- !u!1 &3694758794387675655
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,24 +8,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7888179484479990209}
-  - component: {fileID: 3075953909985974522}
-  - component: {fileID: 1796123366908138578}
-  - component: {fileID: 5544578802936675239}
+  - component: {fileID: 4038115672746215342}
+  - component: {fileID: 4315523038870593103}
+  - component: {fileID: 4405457497709748477}
+  - component: {fileID: 7880791133288406282}
   m_Layer: 5
-  m_Name: FishDish
+  m_Name: PastaDish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!224 &7888179484479990209
+--- !u!224 &4038115672746215342
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7416750738496021778}
+  m_GameObject: {fileID: 3694758794387675655}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -38,21 +38,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &3075953909985974522
+--- !u!222 &4315523038870593103
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7416750738496021778}
+  m_GameObject: {fileID: 3694758794387675655}
   m_CullTransparentMesh: 1
---- !u!114 &1796123366908138578
+--- !u!114 &4405457497709748477
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7416750738496021778}
+  m_GameObject: {fileID: 3694758794387675655}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5088316998373936774, guid: 99dc073961c577f409be105603d6ca54, type: 3}
+  m_Sprite: {fileID: -3576617069327294648, guid: 7b9496cab30c2d4479ecc5a0fdde305e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -76,25 +76,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5544578802936675239
+--- !u!114 &7880791133288406282
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7416750738496021778}
+  m_GameObject: {fileID: 3694758794387675655}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e48ce280db787884fae676b9c17e2b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftHand: {fileID: 1796123366908138578}
+  leftHand: {fileID: 4405457497709748477}
   images:
-  - {fileID: -855298285791758126, guid: e1abf2b0cce90ed4185ba0e412c774eb, type: 3}
-  - {fileID: 6937817954938267909, guid: f4e5358943b96784082d4ff69e06923b, type: 3}
-  - {fileID: -6470460504253458178, guid: 464c95e0120df084b9266233a740c9eb, type: 3}
-  - {fileID: -4178046375966092550, guid: cdafdfdfda077054891cdc9d7bd5cf76, type: 3}
-  - {fileID: 4130640169021434097, guid: 834970c0c602a244c8f07518a6eaa734, type: 3}
-  - {fileID: 3465286685962602723, guid: fff5229ac5a800443bd6a93a2b280a5d, type: 3}
-  - {fileID: 7028616704906629411, guid: 7c9d4fe01d9575c4bb36755580de16e6, type: 3}
+  - {fileID: 807277014968846994, guid: 168d84279626558428d3290855ce541a, type: 3}
+  - {fileID: -3034863898534701025, guid: 28ee2de02f71ab24db497d02deb8bad3, type: 3}
   - {fileID: 5276252998193144660, guid: f007b2f20cd993742b7205e20de9a868, type: 3}
