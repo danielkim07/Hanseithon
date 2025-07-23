@@ -4,8 +4,14 @@ public class SettimngUiShow : MonoBehaviour
 {
 
 
-    private void ShowToggle()
+    public void ShowToggle()
     {
-        
+        if(gameObject.activeSelf)
+        {
+            gameObject.SetActive(false);
+        } else
+        {
+            gameObject.SetActive(true);
+        }
     }
 }
